@@ -1,0 +1,93 @@
+.deznav {
+    width: 16.563rem;
+    /* padding: 15px 15px 0px 15px; */
+    border-top-right-radius: 15px;
+    height: 100%;
+    z-index: 3;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(120, 130, 140, 0.13);
+    transition: all .2s ease;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.deznav .deznav-scroll {
+    position: relative;
+    height: 100%;
+}
+
+.deznav .metismenu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.deznav ul {
+    padding: 0;
+      padding-top: 0px;
+    margin: 0;
+    list-style: none;
+}
+
+.deznav .metismenu li {
+    position: relative;
+}
+
+.deznav .metismenu > li {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.deznav .metismenu > li > a {
+    font-size: 16px;
+    padding: 20px 50px;
+    border-radius: 5rem;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.deznav .metismenu a {
+    position: relative;
+    display: block;
+    padding: 0.625rem 1.875rem;
+    outline-width: 0;
+    color: #7e7e7e;
+    text-decoration: none;
+}
+
+.deznav .metismenu > li a > i {
+    font-size: 1.4rem;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 0;
+    height: auto;
+    width: auto;
+    border-radius: 1.25rem;
+    line-height: 1;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-right: 15px;
+}
+
+.deznav .copyright {
+    font-size: 14px;
+    padding: 0 45px 60px;
+    margin-top: 40px;
+    color: #969BA0;
+    margin-bottom: 40px;
+  }
+
+  .deznav .copyright p {
+    margin-bottom: 10px;
+  }

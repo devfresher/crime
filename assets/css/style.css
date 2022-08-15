@@ -1,0 +1,230 @@
+@import url(typography.css);
+@import url(sideBar.css);
+body {
+	background: wheat;
+}
+
+.wrapper {
+	background: rgba(0, 0, 0, .1);
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+section {
+	margin-bottom: 20px !Important;
+}
+
+nav {
+	align-content: center;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul li a {
+	padding: 20px !important;
+	border: 2px dotted #fff;
+	float: left;
+	text-decoration: none;
+	font-weight: bolder;
+	border-radius: 50px;
+}
+
+nav ul li:nth-child(odd) a {
+	border-top: solid #fff;
+	border-right: solid #fff;
+	border-top-left-radius: unset;
+	border-bottom-right-radius: unset;
+}
+
+nav ul li:nth-child(even) a {
+	border-bottom: solid #fff;
+	border-left: solid #fff;
+	border-top-left-radius: unset;
+	border-bottom-right-radius: unset;
+}
+
+nav ul li a:hover {
+	background-color: rgb(255, 255, 255);
+	color: rgba(129, 80, 0, 1) !important;
+}
+
+nav ul li.active a {
+	background-color: rgb(255, 255, 255);
+	color: rgba(129, 80, 0, 1) !important;
+}
+
+.personal-info h3, .personal-info > div, .account-info > h3, .account-info > div{
+	border: 5px double white;
+	padding: 20px;
+}
+
+.form-control {
+	border-radius: 1.25rem;
+    background: #fff;
+    border: 1px solid #f0f1f5;
+    color: #6e6350cc;
+    height: 56px;
+}
+
+.btn {
+	padding: 0.938rem 1.5rem;
+    border-radius: 1.25rem;
+    font-weight: 500;
+    font-size: 1rem;
+	background-color: #625948;
+	color: #fff;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #625948;
+	border: 2px solid #625948;
+}
+
+.member-details, .select-member, .trans-his, .hide-trans-his {
+	display: none;
+}
+.member-details div {
+	/*border-top: solid #fff;*/
+	/*border-right: solid #fff;*/
+	/*border-top-right-radius: 50px;*/
+}
+.img {
+	height: 150px !Important;
+	width: 180px !Important;
+}
+
+.img img {
+	height: inherit;
+	width: inherit;
+	border-radius: 10%;
+	border: 5px solid #fff;
+}
+
+.profile-img{
+	height: 150px !Important;
+	width: 200px !Important;
+}
+
+.profile-img img {
+	height: inherit;
+	width: inherit;
+	border-radius: 10%;
+	border: 5px solid #fff;
+}
+
+.news-update .news{
+	border-radius: 1.25rem;
+	color: white;
+	padding: 8px 15px;
+	background: rgba(0, 0, 0, .1) !Important;
+	color: white;
+	border-left: 5px solid #625948;
+	box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
+}
+.news-update a{
+	text-decoration: none;
+	color: white;
+}
+.news-update .news:hover .read-more {
+	color: #625948;
+}
+
+.news-title {
+	font-family: times;
+}
+.news-content {
+	background: rgba(0, 0, 0, .1) !Important;
+	color: white;
+	padding: 8px;
+	border: 0px !Important;	
+	font-family: times;
+}
+.clear {
+	clear: both;
+}
+
+footer {
+	background: rgba(0, 0, 0, .6) !Important;
+	color: white;
+	padding-top: 4px;
+}
+
+
+.dashboard a {
+	border-radius: 0px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.register-member, .login-form {
+	background: rgba(0, 0, 0, .1) !Important;
+	color: white;
+	padding: 8px;
+	box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
+	border-radius: 5px;
+	/*background: rgba(185, 10, 123, 0.08) !Important;*/
+	/*border-left: 5px solid rgb(185, 10, 26);*/
+	/*border-right: 5px solid rgb(185, 10, 26);*/
+}
+
+.register-member {
+	background: rgba(0, 0, 0, .1) !Important;
+	border-right: 5px solid rgba(0, 0, 0, 0.38);
+	border-left: 5px solid rgba(0, 0, 0, 0.38);
+	color: white;
+	padding: 8px;
+}
+
+.register-member-msg {
+	background: rgba(185, 10, 26, 0.42) !Important;
+	border-left: 5px solid rgb(185, 10, 26);
+	border-right: 5px solid rgb(185, 10, 26);
+	color: white;
+	padding: 8px;
+}
+.register-member-msg-success {
+	background: rgba(10, 185, 64, 0.28) !Important;
+	border-left: 5px solid rgb(10, 185, 64);
+	border-right: 5px solid rgb(10, 185, 64);
+	color: white;
+	padding: 8px;
+}
+.slide img {
+	height: 346px;
+	width: 100%;
+}
+
+.dob div {
+	padding-left: 0px !Important;
+}
+
+.dob label {
+	padding-right: 0px !Important;
+	margin-top: 7px !Important;
+}
+.login-form-dropdown{
+	z-index: 1000;
+	margin-left: 590px;
+	margin-top: 65px;
+	background: rgba(0, 0, 0, .61) !Important;
+	color: white;
+	padding: 8px;
+	width: 250px;
+	position: absolute;
+	display: none;
+}
+
+.title{
+	color: white;
+	font-family: times;
+	font-size: 35px;
+}
